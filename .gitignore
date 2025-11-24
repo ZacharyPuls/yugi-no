@@ -1,0 +1,8 @@
+stubs/
+.venv
+.mypy_cache
+*.pyc
+__pycache__
+.python-version
+uv.lock
+dist

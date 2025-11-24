@@ -1,0 +1,23 @@
+[project]
+name = "yugi-no"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.12.4",
+    "pygame-ce>=2.5.6",
+    "rule-engine>=4.5.3",
+]
+
+[project.scripts]
+yugi-no = "yugi_no:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+]

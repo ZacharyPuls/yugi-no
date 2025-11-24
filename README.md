@@ -1,2 +1,2 @@
 # yugi-no
-Simple Yugioh card simulator used to learn more about pygame and rule-engine
+Simple Yugioh card simulator I made to learn more about pygame and rule-engine
